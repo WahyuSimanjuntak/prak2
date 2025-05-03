@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>BOY Group</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: url("ENHYPEN2.jpg") no-repeat center center fixed;
+      background-size: cover;
+      margin: 0;
+      padding-top: 80px;
+      color: white;
+    }
+
+    nav {
+      background: rgba(0, 0, 0, 0.7);
+      padding: 15px 30px;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      z-index: 1000;
+      backdrop-filter: blur(10px);
+    }
+
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffd369;
+    }
+
+    .konten {
+      max-width: 1000px;
+      margin: auto;
+      background: rgba(0, 0, 0, 0.65);
+      padding: 40px;
+      border-radius: 15px;
+      text-align: center;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    }
+
+    .konten h1 {
+      margin-bottom: 30px;
+      color: #ffd369;
+      font-size: 32px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 25px;
+      margin-top: 20px;
+      justify-items: center;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 12px;
+      padding: 10px;
+      transition: transform 0.3s;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+      width: 180px;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card img {
+      width: 180px;
+      height: 270px;
+      object-fit: cover;
+      border-radius: 10px;
+      border: 3px solid #ffd369;
+    }
+
+    .card-name {
+      margin-top: 10px;
+      font-weight: bold;
+      font-size: 16px;
+      color: #ffd369;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <a href="halaman1.html">Home</a>
+    <a href="halaman2.html">Background Information</a>
+    <a href="halaman3.html">Member</a>
+  </nav>
+
+  <!-- Konten -->
+  <div class="konten">
+    <h1>MEMBER ENHYPEN</h1>
+    <div class="gallery">
+      <div class="card">
+        <img src="HEESUNG.jpg" alt="Heeseung">
+        <div class="card-name">Heeseung</div>
+      </div>
+      <div class="card">
+        <img src="JAY.jpg" alt="Jay">
+        <div class="card-name">Jay</div>
+      </div>
+      <div class="card">
+        <img src="JAKE.jpg" alt="Jake">
+        <div class="card-name">Jake</div>
+      </div>
+      <div class="card">
+        <img src="SUNGHOON.jpg" alt="Sunghoon">
+        <div class="card-name">Sunghoon</div>
+      </div>
+      <div class="card">
+        <img src="SUNOO.jpg" alt="Sunoo">
+        <div class="card-name">Sunoo</div>
+      </div>
+      <div class="card">
+        <img src="JUNGWOON.jpg" alt="Jungwon">
+        <div class="card-name">Jungwon</div>
+      </div>
+      <div class="card">
+        <img src="NI-KI.jpg" alt="Ni-Ki">
+        <div class="card-name">Ni-Ki</div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
